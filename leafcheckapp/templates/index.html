@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<style>
+    /* Add custom styles here */
+body {
+  position: relative; /* Set the parent element as relative */
+  background-image: url('https://assets.bizclikmedia.net/900/a6284552da177a2086e74cff03b6af83:49958d38a4cafcfbd27dae6f0f8d909e/gettyimages-1318980755.webp');
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+    .jumbotron h1 {
+        color: white;
+        font-size: 72px;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .jumbotron p {
+        color: white;
+        font-size: 24px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+
+    .card {
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    }
+</style>
+<div class="overlay">
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-1">Plant Leaf Disease Detection</h1>
+            <p class="lead">Detect diseases in plant leaves with our advanced machine learning algorithms.</p>
+            <a href="#" class="btn btn-primary btn-lg">Get started</a>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://www.splashinfotech.in/wp-content/uploads/2021/01/responsive-web-500x480.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Easy to Use</h5>
+                        <p class="card-text">Our app is designed to be simple and user-friendly, so you can get started
+                            with
+                            ease.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://img.freepik.com/free-vector/marketing-research-abstract-illustration-flat-style_335657-4536.jpg?size=626&ext=jpg&ga=GA1.2.215825835.1681118768&semt=ais"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Accurate Results</h5>
+                        <p class="card-text">Our machine learning algorithms have been trained on a large dataset to
+                            ensure accurate results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top"
+                        src="https://img.freepik.com/free-vector/loading-speed-boost-fast-internet-browser-modern-online-technology-accelerated-download-time-smartphone-performance-optimization-improvement-concept-illustration_335657-2027.jpg?size=626&ext=jpg&ga=GA1.1.215825835.1681118768&semt=ais"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Fast Processing</h5>
+                        <p class="card-text">Our website can process images quickly, so you can get results in seconds.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="container my-5 text-white">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Your plants need you</h2>
+                <p>Keeping your plants healthy can be a lot of work, but it's worth it. Hereare some tips to help you
+                    keep your plants in top shape:</p>
+                <ol>
+                    <li>Water your plants regularly, but don't overwater them.</li>
+                    <li>Make sure your plants get enough sunlight.</li>
+                    <li>Fertilize your plants as needed.</li>
+                    <li>Remove any dead or diseased leaves or branches.</li>
+                </ol>
+            </div>
+            <div class="col-lg-6">
+                <img src="https://media.istockphoto.com/id/506316644/photo/care-of-new-life-baby-plant.jpg?b=1&s=170667a&w=0&k=20&c=BkfrFpMj90N8JdZofDDikUHoJe-W7Xnk1nEVHY5uJL8="
+                    alt="Your plants need you" class="img-fluid rounded">
+            </div>
+        </div>
+    </section>
+    <section class="container my-5 text-white">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658__340.jpg"
+                    alt="Act before it's too late" class="img-fluid rounded">
+            </div>
+            <div class="col-lg-6">
+                <h2>Act before it's too late</h2>
+                <p>If you notice any signs of disease or stress in your plants, it's important to take action right
+                    away.
+                    Here are some warning signs to watch out for:</p>
+                <ol>
+                    <li>Yellowing leaves</li>
+                    <li>Brown spots or streaks on leaves</li>
+                    <li>Drooping or wilting leaves</li>
+                    <li>Stunted growth</li>
+                    <li>Presence of pests or insects</li>
+                </ol>
+                <p>Using our Website can help you identify plant diseases early so you can take action before it's too
+                    late.</p>
+            </div>
+        </div>
+    </section>
+    <div class="container mt-5 text-white">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>How it Works</h2>
+                <ol>
+                    <li>Upload an image of a plant leaf with a suspected disease.</li>
+                    <li>Our app will analyze the image using machine learning algorithms.</li>
+                    <li>You will receive a diagnosis with the name of the disease and recommended treatment.</li>
+                </ol>
+            </div>
+            <div class="col-md-6">
+                <img src="https://cdn.pixabay.com/photo/2020/05/31/04/36/investment-5241253__340.jpg"
+                    class="img-fluid rounded" alt="How it works">
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.19.1/js/mdb.min.js"></script>
+
+{% endblock %}
